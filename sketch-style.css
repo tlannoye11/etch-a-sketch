@@ -1,24 +1,75 @@
 #controls {
-    border: 1px solid;
-    height: 100px;
-    width: 320px;
+    /*border: 1px solid;*/
+    height: 34px;
+    width: 192px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#clearBtn {
-    background-color: #555555;
+.ctrlBtn {
     color: white;
     border: none;
     border-radius: 6px;
-    padding: 15px 15px;
+    height: 26px;
+    width: 26px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10pt;
+    font-size: 8pt;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.colorBtnSelected {
+    background-color: #ffffff !important;
+}
+
+#clearBtn {
+    background-color: #555555;
+    border: 2px solid #555555;
+    width: 52px;
+}
+
+#clearBtn:hover {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+#redBtn {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+#redBtn:hover {
+    background-color: #ffffff;
+}
+
+#greenBtn {
+    background-color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+#greenBtn:hover {
+    background-color: #ffffff;
+}
+
+#blueBtn {
+    background-color: #0000ff;
+    border: 2px solid #0000ff;
+}
+
+#blueBtn:hover {
+    background-color: #ffffff;
+}
+
+#blackBtn {
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+
+#blackBtn:hover {
+    background-color: #ffffff;
 }
 
 #container {
@@ -28,13 +79,12 @@
     border: 10px solid white;
     border-radius: 8px;
     
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .row {
-    height: 30px;
     width: 482px;
 }
 
@@ -48,8 +98,6 @@
 
 .square {
     background-color: #e6e6e6;
-    height: 28px;
-    width: 28px;
     border: 1px solid #e6e6e6;
     border-radius: 2px;
     float: left;
@@ -61,9 +109,4 @@
 
 .rightSquare {
     border-right: 2px solid #e6e6e6;
-}
-
-.colored {
-    background-color: red;
-    border-color: red;
 }
